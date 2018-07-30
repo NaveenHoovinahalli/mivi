@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.example.android.naveenproject.HomeActivity">
+    
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/tve1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/tv1"
+        android:text="asdfffff" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="15dp"
+        android:text="Plan" />
+
+    <TextView
+        android:id="@+id/tve2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv2"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_alignStart="@+id/tve1"
+        android:text="asdfffff" />
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="15dp"
+        android:text="Balance" />
+
+    <TextView
+        android:id="@+id/tve3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv3"
+        android:layout_alignBottom="@+id/tv3"
+        android:layout_alignStart="@+id/tve2"
+        android:text="asdfffff" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="23dp"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/tve4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv4"
+        android:layout_alignBottom="@+id/tv4"
+        android:layout_alignStart="@+id/tve3"
+        android:text="asdfffff" />
+
+</RelativeLayout>
